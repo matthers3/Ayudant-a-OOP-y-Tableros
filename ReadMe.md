@@ -65,82 +65,21 @@ Por ultimo, podemos hacer que dos perros jueguen entre si. Vamos a implementar e
             self.nombre = nombre
             self.raza = raza
         
-        def ladrar(self):
+        def ladrar(self):   # No la usamos en este ejemplo
             print(self.nombre + " ladra con emoción!")
             
         def jugar(self, otro_perro):
             print(self.nombre + " juega con " + otro_perro.nombre + "!")
             
     perro1 = Perro("Lou", "Beagle")     # Estamos creando un perro de raza Beagle llamado Lou
-    perro2 = Perro("", "")
-
-Tableros
-========
-
-
-    """
-    
-Ahora queremos que nuestro perro pueda hacer cosas, por ejemplo, ladrar. Vamos a implementar un metodo "ladrar" en nuestra clase perro para que este pueda muestrar en consola que está ladrando.
-
-    Class Perro:
-        
-        def __init__(self, nombre, raza):
-            self.nombre = nombre
-            self.raza = raza
-        
-        def ladrar(self):
-            print(self.nombre + " ladra con emoción!")
-            
-    perro1 = Perro("Lou", "Beagle")     # Estamos creando un perro de raza Beagle llamado Lou
-    perro1.ladrar()
+    perro2 = Perro("Rex", "Pastor Alemán")
+    perro1.jugar(perro2)
     
     """
     El output esperado:
-    Lou ladra con emoción!
+    Lou juega con Rex!
     """
-    
-Por ultimo, podemos hacer que dos perros jueguen entre si. Vamos a implementar el metodo "jugar" que hará que un perro juegue con otro.
-
-     Class Perro:
-        
-        def __init__(self, nombre, raza):
-            self.nombre = nombre
-            self.raza = raza
-        
-        def ladrar(self):
-            print(self.nombre + " ladra con emoción!")
-            
-        def jugar(self, otro_perro):
-            print(self.nombre + " juega con " + otro_perro.nombre + "!")
-            
-    perro1 = Perro("Lou", "Beagle")     # Estamos creando un perro de raza Beagle llamado Lou
-    perro2 = Perro("", "")
 
 Tableros
 ========
-
-
-    Lou
-    Beagle
-    """
-    
-Ahora queremos que nuestro perro pueda hacer cosas, por ejemplo, ladrar. Vamos a implementar un metodo "ladrar" en nuestra clase perro para que este pueda muestrar en consola que está ladrando.
-
-    Class Perro:
-        
-        def __init__(self, nombre, raza):
-            self.nombre = nombre
-            self.raza = raza
-        
-        def ladrar(self):
-            print(self.nombre + " ladra con emoción!")
-            
-    perro1 = Perro("Lou", "Beagle")     # Estamos creando un perro de raza Beagle llamado Lou
-    perro1.ladrar()
-    
-    """
-    El output esperado:
-    Lou ladra con emoción!
-    """
-    
 
