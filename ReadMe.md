@@ -83,3 +83,22 @@ Por ultimo, podemos hacer que dos perros jueguen entre si. Vamos a implementar e
 Tableros
 ========
 
+Se pueden utilizar listas de listas para representar de forma abstracta un tablero. 
+
+Digamos que poseemos un tablero de ajedrez:
+
+![alt text](https://github.com/matthers3/Ayudant-a-OOP-y-Tableros/blob/master/img/tablero.png)
+
+La cual podemos dividir por filas:
+
+![alt text](https://github.com/matthers3/Ayudant-a-OOP-y-Tableros/blob/master/img/tablero_separado.png)
+
+Y, ¿qué pasaría si cada una de estas filas se encontraran dentro de una lista?:
+
+![alt text](https://github.com/matthers3/Ayudant-a-OOP-y-Tableros/blob/master/img/tablero_separado_lista.png)
+
+Ahora escribimos cómo se vería esta representación en python:
+
+![alt text](https://github.com/matthers3/Ayudant-a-OOP-y-Tableros/blob/master/img/Captura.PNG)
+
+Ya tenemos definido nuestro tablero.
