@@ -99,6 +99,8 @@ Y, ¿qué pasaría si cada una de estas filas se encontraran dentro de una lista?:
 
 Ahora escribimos cómo se vería esta representación en python:
 
+
 ![alt text](https://github.com/matthers3/Ayudant-a-OOP-y-Tableros/blob/master/img/Captura.PNG)
+
 
 Ya tenemos definido nuestro tablero.
