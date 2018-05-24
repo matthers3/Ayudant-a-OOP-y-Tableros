@@ -56,7 +56,6 @@ class Tablero:
             self.tablero[y1][x1] = " "
         return
 
-
     def buscar_posicion(self, buscado):
         x = 0
         y = 0
@@ -140,8 +139,6 @@ class Tablero:
                 self.tablero[y][x] = "*"
             except:
                 break
-
-
         return
 
     def mostrar_diagonales(self, aventurero):
@@ -229,11 +226,7 @@ class Tablero:
 
 t1 = Tablero()
 M = Aventurero('Matias', '3', 'DCC')
-L = Aventurero('Lucas', '3', 'Química')
+L = Aventurero('Lucas', '3', 'Ingeniería Química')
 t1.tablero[3][5] = M
 t1.tablero[1][2] = L
-t1.mostrar_tablero()
-print(t1.buscar_posicion_index(M))
-print(t1.contar_piezas())
-
 t1.mostrar_movimientos(L)
