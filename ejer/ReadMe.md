@@ -14,7 +14,8 @@ Aventurero
 ==========
 
 Nuestro personaje, debe tener nombre, cuantos años lleva en el calabozo, y debe ser capaz de portar varios dados.
-El aventurero debe poder tirar todos sus dados a la vez.
+El aventurero debe poder tirar todos sus dados a la vez. También debe tener su posición (x,y) dentro del tablero en el que se encuentra.
+
 
 
 Tablero
