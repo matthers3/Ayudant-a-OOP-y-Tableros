@@ -105,4 +105,4 @@ Ahora escribimos cómo se vería esta representación en python:
 
 Ya tenemos definido nuestro tablero.
 
-En esta ayudantía programaremos un juego al estilo Calabozos&Dragones en un tablero para comprender cómo trabajar con estos.
+En esta ayudantía programaremos un juego al estilo Calabozos&Dragones en un tablero para comprender cómo trabajar con estos. Este ejercicio se encuentra en la carpeta ejer.
