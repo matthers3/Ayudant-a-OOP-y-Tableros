@@ -18,8 +18,9 @@ Aventurero
 
 Nuestro personaje, debe tener:
 
-- Nombre 
-- Cuantos años lleva en el calabozo
+- Nombre.
+- Cuantos años lleva en el calabozo.
+- Debe indicar a que gremio pertenece.
 - Debe ser capaz de portar varios dados y lanzarlos todos a la vez.
 - Al ser printeado debe ser representado con la primera letra de su nombre en mayuscula.
 
